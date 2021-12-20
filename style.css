@@ -1,0 +1,189 @@
+@font-face{
+	font-family: main;
+	src: url(2.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	background: #211d18;
+}
+
+.main-center {
+	width: 1515px;
+	height: 1320px;
+	text-shadow: 1px 1px 3px black, 0 0 1em gray;
+}
+
+.box {
+	width: 1300px;
+	height: 1320px;
+	background: #6f0e78;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	font-family: main;
+
+	}
+
+
+.menu {
+	width: 200px;
+	height: 714px;	
+	background: #9907b0;
+	box-shadow: 5px 0px 100px black; 
+	position: sticky;
+	top: 0px;
+	}
+
+.logo {
+	width: 200px;
+	height: 147px;
+	background: #9907b0;
+	margin-top: 18px;
+}
+
+.imgsize {
+	width: 170px;
+	margin-left: 15px;
+}
+
+.a {
+	text-decoration: none;
+	display: block;
+	margin-left: 20px;
+	font-size: 22px;
+	color: #f59f3d;
+	transition: color 0.5s linear;
+}
+
+.a:hover {
+	color: white;
+}
+
+.top {
+	margin-top: 30px;
+}
+
+.content {
+	width: 1100px;
+	height: 1200px;
+	background: #6f0e78;
+}
+
+
+.content-center{
+	width: 900px;
+	height: 1180px;
+	background: #6f0e78;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+.banner {
+	width: 900px;
+	height: 450px;
+	background: none;
+	border-radius: 20px;
+	color: #f5efe9;
+	background-image: url(Abyss.png);
+	
+}
+
+
+.img_size {
+	background-size: cover;
+}
+.p {
+	margin-left: 60px;
+	font-size: 40px;
+	padding-top: 200px;
+}
+
+.p2 {
+	margin-left: 60px;
+	font-size: 30px;
+}
+
+.story {
+	width: 900px;
+	height: 330px;
+	margin-top: 40px;
+	background: #6f0e78;
+	border-radius: 20px;
+}
+
+.propis {
+	font-size: 24px;
+	color: #f5efe9;
+	margin-top: -50px;
+}
+
+.hr {
+	border: none; /* Убираем границу */
+    background-color: #f5efe9; /* Цвет линии */
+    color: #f5efe9; /* Цвет линии для IE6-7 */
+    height: 0.3px; /* Толщина линии */
+
+}
+
+.characters {
+	width: 900px;
+	height: 270px;
+	background: none;
+	margin-top: 43px;
+	display: flex;
+}
+
+.character {
+	width: 280px;
+	height: 210px;
+	background: none;
+}
+
+.m-l {
+	margin-left: 30px;
+}
+
+.end {
+	width: 280px;
+	height: 60px;
+	background: none;
+	margin-top: 210px;
+	text-align: center;
+}
+
+.character_size {
+	width: 210px;
+	border-radius: 20px;
+}
+
+.m-t {
+	margin-top: -5px;
+}
+
+
+.p3 {
+	font-size: 30px;
+	padding-top: -30px;
+	margin-top: 20px;
+	color: #f59f3d;
+	}
+
+.mh {
+	text-align: center;
+	font-size: 40px;
+	color:  #f5efe9;
+	margin-top: 30px;
+}
+
+.m-l2 {
+	margin-left: 10px;
+	margin-top: 10px;
+}
